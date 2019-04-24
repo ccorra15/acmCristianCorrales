@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/announcement_image_url"
+            android:padding="3dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+                android:id="@+id/announcement_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:text="Test Title"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/announcement_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Body"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:padding="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/announcement_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="01-15-2018"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:id="@+id/announcement_author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Posted by Sri Vats"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

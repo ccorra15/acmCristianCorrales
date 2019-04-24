@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/announcements"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/resources"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Resources" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="About Us" />
+    </group>
+
+    <item android:title="Social Media">
+        <menu>
+            <item
+                android:id="@+id/instagram"
+                android:icon="@drawable/instal"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/fbl"
+                android:title="Facebook" />
+        </menu>
+    </item>
+
+</menu>

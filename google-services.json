@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "509660269382",
+    "firebase_url": "https://acmcristiancorrales.firebaseio.com",
+    "project_id": "acmcristiancorrales",
+    "storage_bucket": "acmcristiancorrales.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509660269382:android:f191c372a0011eec",
+        "android_client_info": {
+          "package_name": "com.example.acmcristiancorrales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509660269382-v8slu29e84rihagb2cb1kscrbbuc0bs8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.acmcristiancorrales",
+            "certificate_hash": "c0b3141d638d3e1580893c704cb26697374c8a51"
+          }
+        },
+        {
+          "client_id": "509660269382-q6r0v1u6eatm7ssgfgaubhlkma413d60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh_HTqPAlt-pHI5yXE-Zok_1lXHoJH1XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509660269382-q6r0v1u6eatm7ssgfgaubhlkma413d60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
